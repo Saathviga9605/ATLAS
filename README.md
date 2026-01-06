@@ -3,8 +3,6 @@
 **A**utonomous **T**rust **L**ayer for **A**gent **S**ystems  
 Multi-Regulation Compliance Monitoring with AI-Powered Analysis
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Python](https://img.shields.io/badge/python-3.10+-blue) ![React](https://img.shields.io/badge/react-19.2.3-blue)
-
 ---
 
 ## Overview
