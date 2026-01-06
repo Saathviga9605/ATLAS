@@ -1,0 +1,573 @@
+[
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Full track data from the magnetic stripe must not be retained.",
+    "goal_description": "Do not retain full track data from the magnetic stripe.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain full track data from the magnetic stripe",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Card verification code must not be retained after authorization.",
+    "goal_description": "Do not retain card verification code after authorization.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain card verification code",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "PIN and PIN block must never be stored.",
+    "goal_description": "Do not store PIN and PIN block.",
+    "verb": "must never",
+    "subject": "Organization",
+    "object": "store PIN and PIN block",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "If PAN is stored, it must be rendered unreadable using strong cryptography.",
+    "goal_description": "Render PAN unreadable using strong cryptography if stored.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "render PAN unreadable",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "Encryption keys must be as strong as the data-encryption key.",
+    "goal_description": "Use encryption keys as strong as the data-encryption key.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "use encryption keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Full track data from the magnetic stripe must not be retained.",
+    "goal_description": "Do not retain full track data from the magnetic stripe.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain full track data from the magnetic stripe",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Card verification code must not be retained after authorization.",
+    "goal_description": "Do not retain card verification code after authorization.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain card verification code",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "PIN and PIN block must never be stored.",
+    "goal_description": "Never store PIN and PIN block.",
+    "verb": "must never",
+    "subject": "Organization",
+    "object": "store PIN and PIN block",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.3-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.3",
+    "original_text": "Sensitive authentication data is not stored after authorization.",
+    "goal_description": "Do not store sensitive authentication data after authorization.",
+    "verb": "is not",
+    "subject": "Sensitive authentication data",
+    "object": "stored after authorization",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.4-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.4",
+    "original_text": "Access to displays of full PAN and ability to copy cardholder data are restricted.",
+    "goal_description": "Restrict access to displays of full PAN and ability to copy cardholder data.",
+    "verb": "are",
+    "subject": "Access to displays of full PAN and ability to copy cardholder data",
+    "object": "restricted",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "If PAN is stored, it must be rendered unreadable using strong cryptography.",
+    "goal_description": "Render PAN unreadable using strong cryptography if stored.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "render PAN unreadable using strong cryptography",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "Encryption keys must be as strong as the data-encryption key.",
+    "goal_description": "Use strong encryption keys that match the strength of the data-encryption key.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "use strong encryption keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Full track data from the magnetic stripe must not be retained.",
+    "goal_description": "Do not retain full track data from the magnetic stripe.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain full track data from the magnetic stripe",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Card verification code must not be retained after authorization.",
+    "goal_description": "Do not retain card verification code after authorization.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain card verification code after authorization",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "PIN and PIN block must never be stored.",
+    "goal_description": "Do not store PIN and PIN block.",
+    "verb": "must never",
+    "subject": "Organization",
+    "object": "store PIN and PIN block",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "If PAN is stored, it must be rendered unreadable using strong cryptography.",
+    "goal_description": "Render PAN unreadable using strong cryptography if stored.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "render PAN unreadable using strong cryptography",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "Encryption keys must be as strong as the data-encryption key.",
+    "goal_description": "Use encryption keys as strong as the data-encryption key.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "use encryption keys as strong as the data-encryption key",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Full track data from the magnetic stripe must not be retained.",
+    "goal_description": "Do not retain full track data from the magnetic stripe.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain full track data from the magnetic stripe",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Card verification code must not be retained after authorization.",
+    "goal_description": "Do not retain card verification code after authorization.",
+    "verb": "must not",
+    "subject": "Organization",
+    "object": "retain card verification code",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "PIN and PIN block must never be stored.",
+    "goal_description": "Do not store PIN and PIN block.",
+    "verb": "must never",
+    "subject": "Organization",
+    "object": "store PIN and PIN block",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.3-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.3",
+    "original_text": "Sensitive authentication data is not stored after authorization.",
+    "goal_description": "Do not store sensitive authentication data after authorization.",
+    "verb": "is not",
+    "subject": "Organization",
+    "object": "store sensitive authentication data",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.4-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.4",
+    "original_text": "Access to displays of full PAN and ability to copy cardholder data are restricted.",
+    "goal_description": "Restrict access to displays of full PAN and ability to copy cardholder data.",
+    "verb": "are",
+    "subject": "Organization",
+    "object": "access to displays of full PAN and ability to copy cardholder data",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "PAN is secured wherever it is stored.",
+    "goal_description": "Secure PAN wherever it is stored.",
+    "verb": "is",
+    "subject": "Organization",
+    "object": "PAN",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "If PAN is stored, it must be rendered unreadable using strong cryptography.",
+    "goal_description": "Render PAN unreadable using strong cryptography if stored.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "render PAN unreadable",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.5-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.5",
+    "original_text": "Encryption keys must be as strong as the data-encryption key.",
+    "goal_description": "Use encryption keys as strong as the data-encryption key.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "use encryption keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.6-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.6",
+    "original_text": "Access to cleartext cryptographic keys must be restricted to the fewest custodians.",
+    "goal_description": "Restrict access to cleartext cryptographic keys to the fewest custodians.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "access cleartext cryptographic keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.6-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.6",
+    "original_text": "Cryptographic keys must be stored in the fewest possible locations.",
+    "goal_description": "Store cryptographic keys in the fewest possible locations.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "store cryptographic keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "Visa-5.3.1-01",
+    "parent_goal_id": null,
+    "regulation": "Visa Rules",
+    "section": "Rule 5.3.1",
+    "original_text": "Merchants must not store sensitive authentication data after authorization.",
+    "goal_description": "Do not store sensitive authentication data after authorization.",
+    "verb": "must not",
+    "subject": "Merchants",
+    "object": "store sensitive authentication data",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants"
+    ]
+  },
+  {
+    "goal_id": "Visa-5.3.2-01",
+    "parent_goal_id": null,
+    "regulation": "Visa Rules",
+    "section": "Rule 5.3.2",
+    "original_text": "All cardholder data must be protected in accordance with PCI DSS requirements.",
+    "goal_description": "Protect cardholder data in accordance with PCI DSS requirements.",
+    "verb": "must",
+    "subject": "Merchants",
+    "object": "protect cardholder data",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants"
+    ]
+  },
+  {
+    "goal_id": "Visa-5.3.3-01",
+    "parent_goal_id": null,
+    "regulation": "Visa Rules",
+    "section": "Rule 5.3.3",
+    "original_text": "Merchants must implement multi-layered security controls to protect cardholder data.",
+    "goal_description": "Implement multi-layered security controls to protect cardholder data.",
+    "verb": "must",
+    "subject": "Merchants",
+    "object": "implement security controls",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants"
+    ]
+  },
+  {
+    "goal_id": "Visa-5.4.1-01",
+    "parent_goal_id": null,
+    "regulation": "Visa Rules",
+    "section": "Rule 5.4.1",
+    "original_text": "Account data compromise investigations must be completed within 10 business days.",
+    "goal_description": "Complete account data compromise investigations within 10 business days.",
+    "verb": "must",
+    "subject": "Merchants",
+    "object": "complete investigations",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants"
+    ]
+  },
+  {
+    "goal_id": "Visa-5.4.2-01",
+    "parent_goal_id": null,
+    "regulation": "Visa Rules",
+    "section": "Rule 5.4.2",
+    "original_text": "Compromised accounts must be reported to Visa within 3 business days of discovery.",
+    "goal_description": "Report compromised accounts to Visa within 3 business days of discovery.",
+    "verb": "must",
+    "subject": "Merchants",
+    "object": "report compromised accounts",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.6-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.6",
+    "original_text": "Access to cleartext cryptographic keys must be restricted to the fewest custodians.",
+    "goal_description": "Restrict access to cleartext cryptographic keys to the fewest custodians.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "access cleartext cryptographic keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.6-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.6",
+    "original_text": "Cryptographic keys must be stored in the fewest possible locations.",
+    "goal_description": "Store cryptographic keys in the fewest possible locations.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "store cryptographic keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.6-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.6",
+    "original_text": "Access to cleartext cryptographic keys must be restricted to the fewest custodians.",
+    "goal_description": "Restrict access to cleartext cryptographic keys to the fewest custodians.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "access cleartext cryptographic keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.6-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.6",
+    "original_text": "Cryptographic keys must be stored in the fewest possible locations.",
+    "goal_description": "Store cryptographic keys in the fewest possible locations.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "store cryptographic keys",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  }
+]

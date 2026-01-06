@@ -1,0 +1,735 @@
+{
+  "tenant_id": "visa",
+  "violations": [
+    {
+      "violation_id": "VIOL-001-EC5587",
+      "evidence_id": "EVID-1767562978-43AC3F",
+      "source_type": "support_chat",
+      "source_id": "demo_001",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:42:55.473000Z"
+    },
+    {
+      "violation_id": "VIOL-002-A0165B",
+      "evidence_id": "EVID-1767562978-A80A1F",
+      "source_type": "support_chat",
+      "source_id": "demo_001",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:42:55.473000Z"
+    },
+    {
+      "violation_id": "VIOL-003-B95363",
+      "evidence_id": "EVID-1767563003-306706",
+      "source_type": "application_log",
+      "source_id": "demo_002",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:42:58.468000Z"
+    },
+    {
+      "violation_id": "VIOL-004-4026F5",
+      "evidence_id": "EVID-1767563003-BA3A5B",
+      "source_type": "application_log",
+      "source_id": "demo_002",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:42:59.463000Z"
+    },
+    {
+      "violation_id": "VIOL-005-CF20C3",
+      "evidence_id": "EVID-1767563068-668F01",
+      "source_type": "support_chat",
+      "source_id": "src_1767563053138",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:44:13.138000Z"
+    },
+    {
+      "violation_id": "VIOL-006-226D1C",
+      "evidence_id": "EVID-1767563069-79B069",
+      "source_type": "support_chat",
+      "source_id": "src_1767563055859",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:44:15.859000Z"
+    },
+    {
+      "violation_id": "VIOL-007-DF3F31",
+      "evidence_id": "EVID-1767563069-4CE04D",
+      "source_type": "support_chat",
+      "source_id": "src_1767563060548",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T21:44:20.548000Z"
+    },
+    {
+      "violation_id": "VIOL-008-7E4D70",
+      "evidence_id": "EVID-1767564727-4BBA3C",
+      "source_type": "application_log",
+      "source_id": "src_1767564725733",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:05.733000Z"
+    },
+    {
+      "violation_id": "VIOL-009-30DA71",
+      "evidence_id": "EVID-1767564730-A5FCCD",
+      "source_type": "application_log",
+      "source_id": "src_1767564729312",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:09.312000Z"
+    },
+    {
+      "violation_id": "VIOL-010-B78F70",
+      "evidence_id": "EVID-1767564730-96BCB7",
+      "source_type": "application_log",
+      "source_id": "src_1767564729526",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:09.526000Z"
+    },
+    {
+      "violation_id": "VIOL-011-96DC9E",
+      "evidence_id": "EVID-1767564733-A6AA44",
+      "source_type": "application_log",
+      "source_id": "src_1767564732563",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:12.563000Z"
+    },
+    {
+      "violation_id": "VIOL-012-40986E",
+      "evidence_id": "EVID-1767564736-388FCF",
+      "source_type": "application_log",
+      "source_id": "src_1767564734636",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:14.636000Z"
+    },
+    {
+      "violation_id": "VIOL-013-93D772",
+      "evidence_id": "EVID-1767564736-E3EBBC",
+      "source_type": "application_log",
+      "source_id": "src_1767564734409",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:14.409000Z"
+    },
+    {
+      "violation_id": "VIOL-014-98E24B",
+      "evidence_id": "EVID-1767564736-12A80D",
+      "source_type": "application_log",
+      "source_id": "src_1767564734229",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:14.229000Z"
+    },
+    {
+      "violation_id": "VIOL-015-49B927",
+      "evidence_id": "EVID-1767564764-8F54C0",
+      "source_type": "support_chat",
+      "source_id": "src_1767564760738",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:40.738000Z"
+    },
+    {
+      "violation_id": "VIOL-016-72ACDD",
+      "evidence_id": "EVID-1767564766-8F28F8",
+      "source_type": "support_chat",
+      "source_id": "src_1767564761375",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:41.375000Z"
+    },
+    {
+      "violation_id": "VIOL-017-ADC1F3",
+      "evidence_id": "EVID-1767564766-D9F1CE",
+      "source_type": "support_chat",
+      "source_id": "src_1767564761532",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:41.532000Z"
+    },
+    {
+      "violation_id": "VIOL-018-979443",
+      "evidence_id": "EVID-1767564766-41DE94",
+      "source_type": "support_chat",
+      "source_id": "src_1767564760894",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:40.894000Z"
+    },
+    {
+      "violation_id": "VIOL-019-26903D",
+      "evidence_id": "EVID-1767564766-E9950C",
+      "source_type": "support_chat",
+      "source_id": "src_1767564761209",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:41.209000Z"
+    },
+    {
+      "violation_id": "VIOL-020-C4FB12",
+      "evidence_id": "EVID-1767564766-FE2116",
+      "source_type": "support_chat",
+      "source_id": "src_1767564761061",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:41.061000Z"
+    },
+    {
+      "violation_id": "VIOL-021-C02BEA",
+      "evidence_id": "EVID-1767564768-DBA394",
+      "source_type": "support_chat",
+      "source_id": "src_1767564761697",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:41.697000Z"
+    },
+    {
+      "violation_id": "VIOL-022-E6A248",
+      "evidence_id": "EVID-1767564768-6BA38D",
+      "source_type": "support_chat",
+      "source_id": "src_1767564762076",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:42.076000Z"
+    },
+    {
+      "violation_id": "VIOL-023-0533AF",
+      "evidence_id": "EVID-1767564768-A3F944",
+      "source_type": "support_chat",
+      "source_id": "src_1767564761862",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:41.862000Z"
+    },
+    {
+      "violation_id": "VIOL-024-2E8D76",
+      "evidence_id": "EVID-1767564780-2B669F",
+      "source_type": "support_chat",
+      "source_id": "src_1767564776282",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:56.282000Z"
+    },
+    {
+      "violation_id": "VIOL-025-D124A7",
+      "evidence_id": "EVID-1767564780-98083E",
+      "source_type": "support_chat",
+      "source_id": "src_1767564776850",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:56.850000Z"
+    },
+    {
+      "violation_id": "VIOL-026-237ECE",
+      "evidence_id": "EVID-1767564780-7E0650",
+      "source_type": "support_chat",
+      "source_id": "src_1767564777034",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:57.034000Z"
+    },
+    {
+      "violation_id": "VIOL-027-572B1A",
+      "evidence_id": "EVID-1767564783-292BC9",
+      "source_type": "support_chat",
+      "source_id": "src_1767564777341",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:57.341000Z"
+    },
+    {
+      "violation_id": "VIOL-028-E0010A",
+      "evidence_id": "EVID-1767564783-AD90C8",
+      "source_type": "support_chat",
+      "source_id": "src_1767564777192",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:57.192000Z"
+    },
+    {
+      "violation_id": "VIOL-029-A08B26",
+      "evidence_id": "EVID-1767564783-A1F934",
+      "source_type": "support_chat",
+      "source_id": "src_1767564777659",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:57.659000Z"
+    },
+    {
+      "violation_id": "VIOL-030-6B4F60",
+      "evidence_id": "EVID-1767564783-396CF0",
+      "source_type": "support_chat",
+      "source_id": "src_1767564777799",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:57.799000Z"
+    },
+    {
+      "violation_id": "VIOL-031-8BB821",
+      "evidence_id": "EVID-1767564785-15F64A",
+      "source_type": "support_chat",
+      "source_id": "src_1767564778284",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:58.285000Z"
+    },
+    {
+      "violation_id": "VIOL-032-834517",
+      "evidence_id": "EVID-1767564785-96C292",
+      "source_type": "support_chat",
+      "source_id": "src_1767564777959",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:57.959000Z"
+    },
+    {
+      "violation_id": "VIOL-033-5A0DBF",
+      "evidence_id": "EVID-1767564786-DCF9B0",
+      "source_type": "support_chat",
+      "source_id": "src_1767564778374",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:58.374000Z"
+    },
+    {
+      "violation_id": "VIOL-034-AC8AA2",
+      "evidence_id": "EVID-1767564786-FE35FE",
+      "source_type": "support_chat",
+      "source_id": "src_1767564778491",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:58.491000Z"
+    },
+    {
+      "violation_id": "VIOL-035-A17CE3",
+      "evidence_id": "EVID-1767564786-8A513D",
+      "source_type": "support_chat",
+      "source_id": "src_1767564778594",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:58.594000Z"
+    },
+    {
+      "violation_id": "VIOL-036-B4A6A2",
+      "evidence_id": "EVID-1767564788-A8813B",
+      "source_type": "support_chat",
+      "source_id": "src_1767564778810",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:58.810000Z"
+    },
+    {
+      "violation_id": "VIOL-037-33CF5F",
+      "evidence_id": "EVID-1767564788-9D696E",
+      "source_type": "support_chat",
+      "source_id": "src_1767564778942",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:58.942000Z"
+    },
+    {
+      "violation_id": "VIOL-038-544D50",
+      "evidence_id": "EVID-1767564788-60393E",
+      "source_type": "support_chat",
+      "source_id": "src_1767564779126",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:59.126000Z"
+    },
+    {
+      "violation_id": "VIOL-039-1FA1A7",
+      "evidence_id": "EVID-1767564788-23BCF1",
+      "source_type": "support_chat",
+      "source_id": "src_1767564779293",
+      "severity": "Critical",
+      "regulation": "PCI-DSS",
+      "description": "PAN exposed in plaintext",
+      "timestamp": "2026-01-04T22:12:59.293000Z"
+    },
+    {
+      "violation_id": "VIOL-040-298470",
+      "evidence_id": "EVID-1767565319-B41FF6",
+      "source_type": "application_log",
+      "source_id": "src_1767565317068",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PAN (Primary Account Number) exposed in plaintext",
+      "timestamp": "2026-01-04T22:21:57.068000Z"
+    },
+    {
+      "violation_id": "VIOL-041-B9AEE9",
+      "evidence_id": "EVID-1767565320-6074D5",
+      "source_type": "application_log",
+      "source_id": "src_1767565319084",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PAN (Primary Account Number) exposed in plaintext",
+      "timestamp": "2026-01-04T22:21:59.084000Z"
+    },
+    {
+      "violation_id": "VIOL-042-2F0D1A",
+      "evidence_id": "EVID-1767565382-1D47EE",
+      "source_type": "email",
+      "source_id": "src_1767565381224",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:23:01.224000Z"
+    },
+    {
+      "violation_id": "VIOL-043-122425",
+      "evidence_id": "EVID-1767565384-3FAE32",
+      "source_type": "email",
+      "source_id": "src_1767565384014",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:23:04.014000Z"
+    },
+    {
+      "violation_id": "VIOL-044-6847E2",
+      "evidence_id": "EVID-1767565522-EC1553",
+      "source_type": "email",
+      "source_id": "src_1767565521492",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:25:21.492000Z"
+    },
+    {
+      "violation_id": "VIOL-045-40897F",
+      "evidence_id": "EVID-1767565526-10E23B",
+      "source_type": "email",
+      "source_id": "src_1767565525427",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:25:25.427000Z"
+    },
+    {
+      "violation_id": "VIOL-046-07C0D3",
+      "evidence_id": "EVID-1767565605-C112F0",
+      "source_type": "email",
+      "source_id": "src_1767565604780",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:26:44.780000Z"
+    },
+    {
+      "violation_id": "VIOL-047-0B2462",
+      "evidence_id": "EVID-1767565606-26CE61",
+      "source_type": "email",
+      "source_id": "src_1767565606116",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:26:46.116000Z"
+    },
+    {
+      "violation_id": "COMP-048-5995A0",
+      "evidence_id": "N/A",
+      "source_type": "support_chat",
+      "source_id": "src_1767565643642",
+      "severity": "None",
+      "regulation": "Multi-Regulation Scan",
+      "description": "No violations detected - Content is compliant",
+      "timestamp": "2026-01-04T22:27:23.642000Z"
+    },
+    {
+      "violation_id": "COMP-049-ED0BB2",
+      "evidence_id": "N/A",
+      "source_type": "support_chat",
+      "source_id": "src_1767565645964",
+      "severity": "None",
+      "regulation": "Multi-Regulation Scan",
+      "description": "No violations detected - Content is compliant",
+      "timestamp": "2026-01-04T22:27:25.964000Z"
+    },
+    {
+      "violation_id": "VIOL-050-C47F7A",
+      "evidence_id": "EVID-1767565725-8A3B5C",
+      "source_type": "email",
+      "source_id": "src_1767565724024",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:28:44.024000Z"
+    },
+    {
+      "violation_id": "VIOL-051-E7BF7F",
+      "evidence_id": "EVID-1767565727-081908",
+      "source_type": "email",
+      "source_id": "src_1767565726576",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Email address(es) exposed: 1 found",
+      "timestamp": "2026-01-04T22:28:46.576000Z"
+    },
+    {
+      "violation_id": "VIOL-052-FA242E",
+      "evidence_id": "EVID-1767565788-057AAF",
+      "source_type": "support_chat",
+      "source_id": "src_1767565787717",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Phone number(s) exposed: 1 found",
+      "timestamp": "2026-01-04T22:29:47.717000Z"
+    },
+    {
+      "violation_id": "COMP-053-39D85B",
+      "evidence_id": "N/A",
+      "source_type": "support_chat",
+      "source_id": "src_1767565830086",
+      "severity": "None",
+      "regulation": "Multi-Regulation Scan",
+      "description": "No violations detected - Content is compliant",
+      "timestamp": "2026-01-04T22:30:30.086000Z"
+    },
+    {
+      "violation_id": "VIOL-054-3BBC43",
+      "evidence_id": "EVID-1767568458-FD987B",
+      "source_type": "support_chat",
+      "source_id": "multi_1767568457935",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "GDPR violation: ['phone_numbers']",
+      "timestamp": "2026-01-04T23:14:17.935000Z"
+    },
+    {
+      "violation_id": "VIOL-055-2B75F0",
+      "evidence_id": "EVID-1767568619-2A5994",
+      "source_type": "support_chat",
+      "source_id": "multi_1767568618476",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PCI-DSS violation: ['pan']",
+      "timestamp": "2026-01-04T23:16:58.476000Z"
+    },
+    {
+      "violation_id": "VIOL-056-71A638",
+      "evidence_id": "EVID-1767568619-BC8513",
+      "source_type": "support_chat",
+      "source_id": "multi_1767568618476",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "GDPR violation: ['emails', 'ip_addresses']",
+      "timestamp": "2026-01-04T23:16:58.476000Z"
+    },
+    {
+      "violation_id": "VIOL-057-8D5201",
+      "evidence_id": "EVID-1767568620-826417",
+      "source_type": "support_chat",
+      "source_id": "multi_1767568618476",
+      "severity": "HIGH",
+      "regulation": "CCPA",
+      "description": "CCPA violation: ['ssn']",
+      "timestamp": "2026-01-04T23:16:58.476000Z"
+    },
+    {
+      "violation_id": "VIOL-058-727500",
+      "evidence_id": "EVID-1767569852-C98649",
+      "source_type": "support_chat",
+      "source_id": "multi_1767569852286",
+      "severity": "HIGH",
+      "regulation": "CCPA",
+      "description": "CCPA violation: ['ssn', 'drivers_license']",
+      "timestamp": "2026-01-04T23:37:32.286000Z"
+    },
+    {
+      "violation_id": "VIOL-059-1A1D17",
+      "evidence_id": "EVID-1767570586-EFB7C1",
+      "source_type": "support_chat",
+      "source_id": "multi_1767570585409",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PCI-DSS violation: ['pan']",
+      "timestamp": "2026-01-04T23:49:45.409000Z"
+    },
+    {
+      "violation_id": "VIOL-060-9BAC10",
+      "evidence_id": "EVID-1767570586-D39F2C",
+      "source_type": "support_chat",
+      "source_id": "multi_1767570585409",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "GDPR violation: ['emails', 'ip_addresses']",
+      "timestamp": "2026-01-04T23:49:45.409000Z"
+    },
+    {
+      "violation_id": "VIOL-061-632C70",
+      "evidence_id": "EVID-1767570587-02C039",
+      "source_type": "support_chat",
+      "source_id": "multi_1767570585409",
+      "severity": "HIGH",
+      "regulation": "CCPA",
+      "description": "CCPA violation: ['ssn']",
+      "timestamp": "2026-01-04T23:49:45.409000Z"
+    },
+    {
+      "violation_id": "COMP-062-0A6745",
+      "evidence_id": "N/A",
+      "source_type": "support_chat",
+      "source_id": "chat_1767574123",
+      "severity": "None",
+      "regulation": "Multi-Regulation Scan",
+      "description": "No violations detected - Content is compliant",
+      "timestamp": "2026-01-05T00:48:43.683000Z"
+    },
+    {
+      "violation_id": "VIOL-063-733560",
+      "evidence_id": "EVID-1767574253-112691",
+      "source_type": "support_chat",
+      "source_id": "chat_1767574253",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PAN (Primary Account Number) exposed in plaintext",
+      "timestamp": "2026-01-05T00:50:53.696000Z"
+    },
+    {
+      "violation_id": "VIOL-064-F243C7",
+      "evidence_id": "EVID-1767574816-4AB656",
+      "source_type": "support_chat",
+      "source_id": "chat_1767574816",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PAN (Primary Account Number) exposed in plaintext",
+      "timestamp": "2026-01-05T01:00:16.667000Z"
+    },
+    {
+      "violation_id": "VIOL-065-257151",
+      "evidence_id": "EVID-1767575239-373CAF",
+      "source_type": "support_chat",
+      "source_id": "chat_1767575239",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "IP address(es) exposed: 1 found",
+      "timestamp": "2026-01-05T01:07:19.271000Z"
+    },
+    {
+      "violation_id": "VIOL-066-8D7542",
+      "evidence_id": "EVID-1767578147-835E4B",
+      "source_type": "support_chat",
+      "source_id": "chat_1767578147",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "Phone number(s) exposed: 1 found",
+      "timestamp": "2026-01-05T01:55:47.854000Z"
+    },
+    {
+      "violation_id": "VIOL-067-1F782E",
+      "evidence_id": "EVID-1767578190-B306A2",
+      "source_type": "support_chat",
+      "source_id": "multi_1767578190954",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "GDPR violation: ['phone_numbers']",
+      "timestamp": "2026-01-05T01:56:30.954000Z"
+    },
+    {
+      "violation_id": "VIOL-068-7E409E",
+      "evidence_id": "EVID-1767578335-1CA3C2",
+      "source_type": "support_chat",
+      "source_id": "multi_1767578335915",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PCI-DSS violation: ['pan']",
+      "timestamp": "2026-01-05T01:58:55.915000Z"
+    },
+    {
+      "violation_id": "VIOL-069-E9D83A",
+      "evidence_id": "EVID-1767578335-F7DB77",
+      "source_type": "support_chat",
+      "source_id": "multi_1767578335915",
+      "severity": "HIGH",
+      "regulation": "GDPR",
+      "description": "GDPR violation: ['emails', 'ip_addresses']",
+      "timestamp": "2026-01-05T01:58:55.915000Z"
+    },
+    {
+      "violation_id": "VIOL-070-A61D34",
+      "evidence_id": "EVID-1767578335-371BAC",
+      "source_type": "support_chat",
+      "source_id": "multi_1767578335915",
+      "severity": "HIGH",
+      "regulation": "CCPA",
+      "description": "CCPA violation: ['ssn']",
+      "timestamp": "2026-01-05T01:58:55.915000Z"
+    },
+    {
+      "violation_id": "VIOL-071-95E6C3",
+      "evidence_id": "EVID-1767578440-7F92E6",
+      "source_type": "support_chat",
+      "source_id": "test_evidence_123",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PAN (Primary Account Number) exposed in plaintext",
+      "timestamp": "2026-01-05T12:21:00Z"
+    },
+    {
+      "violation_id": "VIOL-072-5A2BBC",
+      "evidence_id": "EVID-1767578739-8D1053",
+      "source_type": "support_chat",
+      "source_id": "multi_1767578739898",
+      "severity": "HIGH",
+      "regulation": "CCPA",
+      "description": "CCPA violation: ['drivers_license']",
+      "timestamp": "2026-01-05T02:05:39.898000Z"
+    },
+    {
+      "violation_id": "VIOL-073-E448BF",
+      "evidence_id": "EVID-1767578908-D17847",
+      "source_type": "support_chat",
+      "source_id": "final_test_1767578908",
+      "severity": "CRITICAL",
+      "regulation": "PCI-DSS",
+      "description": "PAN (Primary Account Number) exposed in plaintext",
+      "timestamp": "2026-01-05T02:08:28.153000Z"
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Multi-factor authentication must be enabled for all admin access.",
+    "goal_description": "Enable multi-factor authentication for all admin access.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "admin access",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Sensitive Authentication Data (SAD) must be deleted immediately after authorization.",
+    "goal_description": "Delete SAD immediately after authorization.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "store SAD",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Primary Account Numbers (PAN) shall be stored only when business necessity is documented.",
+    "goal_description": "Store PAN only when business necessity is documented.",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "store PAN",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Cardholder data retention period: Maximum 18 months unless required by law.",
+    "goal_description": "Limit cardholder data retention to 18 months or as required by law.",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "retain cardholder data",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-04",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "All stored PAN must be encrypted using AES-256 or equivalent.",
+    "goal_description": "Encrypt all stored PAN using AES-256 or equivalent.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "encrypt PAN",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Sensitive Authentication Data (SAD) must be deleted immediately after authorization.",
+    "goal_description": "Delete Sensitive Authentication Data (SAD) immediately after authorization.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "store data",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Primary Account Numbers (PAN) shall be stored only when business necessity is documented.",
+    "goal_description": "Store Primary Account Numbers (PAN) only when business necessity is documented.",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "store data",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "All stored PAN must be encrypted using AES-256 or equivalent.",
+    "goal_description": "Encrypt all stored Primary Account Numbers (PAN) using AES-256 or equivalent.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "encrypt data",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-04",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Cardholder data retention period: Maximum 18 months unless required by law.",
+    "goal_description": "Limit Cardholder data retention period to 18 months or as required by law.",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "retain data",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Sensitive Authentication Data (SAD) must be deleted immediately after authorization.",
+    "goal_description": "Delete SAD immediately after authorization.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "store SAD",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Primary Account Numbers (PAN) shall be stored only when business necessity is documented.",
+    "goal_description": "Store PAN only when business necessity is documented.",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "store PAN",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Cardholder data retention period: Maximum 18 months unless required by law.",
+    "goal_description": "Limit cardholder data retention to 18 months or as required by law.",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "retain cardholder data",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-04",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "All stored PAN must be encrypted using AES-256 or equivalent.",
+    "goal_description": "Encrypt all stored PAN using AES-256 or equivalent.",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "encrypt PAN",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-01",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Sensitive Authentication Data (SAD) must be deleted immediately after authorization.",
+    "goal_description": "Delete Sensitive Authentication Data (SAD) immediately after authorization.",
+    "verb": "must",
+    "subject": "Sensitive Authentication Data (SAD)",
+    "object": "be deleted",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-02",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Primary Account Numbers (PAN) shall be stored only when business necessity is documented.",
+    "goal_description": "Store Primary Account Numbers (PAN) only when business necessity is documented.",
+    "verb": "shall",
+    "subject": "Primary Account Numbers (PAN)",
+    "object": "be stored",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-03",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "Cardholder data retention period: Maximum 18 months unless required by law.",
+    "goal_description": "Limit Cardholder data retention period to 18 months or as required by law.",
+    "verb": "shall",
+    "subject": "Cardholder data",
+    "object": "retention period",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "PCI-3.2-04",
+    "parent_goal_id": null,
+    "regulation": "PCI-DSS v4.0",
+    "section": "Requirement 3.2",
+    "original_text": "All stored PAN must be encrypted using AES-256 or equivalent.",
+    "goal_description": "Encrypt all stored Primary Account Numbers (PAN) using AES-256 or equivalent.",
+    "verb": "must",
+    "subject": "Primary Account Numbers (PAN)",
+    "object": "be encrypted",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Merchants",
+      "Processors"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk8-3.1",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 8",
+    "original_text": "Critical incidents must be escalated to CISO within 1 hour of detection.",
+    "goal_description": "Escalate critical incidents to CISO within 1 hour",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "escalate incidents",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk8-3.2",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 8",
+    "original_text": "Forensic preservation shall begin immediately upon incident confirmation.",
+    "goal_description": "Begin forensic preservation immediately upon incident confirmation",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "begin forensic preservation",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk8-3.3",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 8",
+    "original_text": "Affected parties must be notified within 72 hours for GDPR breaches.",
+    "goal_description": "Notify affected parties within 72 hours for GDPR breaches",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "notify affected parties",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk8-3.4",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 8",
+    "original_text": "Payment card brands must be notified of compromises within 24 hours.",
+    "goal_description": "Notify payment card brands of compromises within 24 hours",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "notify payment card brands",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk9-3.1",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 9",
+    "original_text": "Critical incidents must be escalated to CISO within 1 hour of detection.",
+    "goal_description": "Escalate critical incidents to CISO within 1 hour",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "escalate incidents",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk9-3.2",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 9",
+    "original_text": "Forensic preservation shall begin immediately upon incident confirmation.",
+    "goal_description": "Begin forensic preservation immediately upon incident confirmation",
+    "verb": "shall",
+    "subject": "Organization",
+    "object": "begin forensic preservation",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk9-3.3",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 9",
+    "original_text": "Affected parties must be notified within 72 hours for GDPR breaches.",
+    "goal_description": "Notify affected parties within 72 hours for GDPR breaches",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "notify parties",
+    "risk_level": "Medium",
+    "applicable_entities": [
+      "Organization"
+    ]
+  },
+  {
+    "goal_id": "CompanyPolicy-Chunk9-3.4",
+    "parent_goal_id": null,
+    "regulation": "Company Policy",
+    "section": "Chunk 9",
+    "original_text": "Payment card brands must be notified of compromises within 24 hours.",
+    "goal_description": "Notify payment card brands of compromises within 24 hours",
+    "verb": "must",
+    "subject": "Organization",
+    "object": "notify brands",
+    "risk_level": "High",
+    "applicable_entities": [
+      "Organization"
+    ]
+  }
+]

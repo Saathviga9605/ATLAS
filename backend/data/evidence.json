@@ -1,0 +1,213 @@
+{
+  "tenant_id": "visa",
+  "evidence": [
+    {
+      "evidence_id": "EVID-1767578147-835E4B",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "GDPR",
+        "clause": "Article 5 - Personal Data Protection",
+        "requirement": "GDPR Article 5: Personal identifiers must be protected and not exposed in plaintext"
+      },
+      "detection": {
+        "detected_by": "MonitoringAgent",
+        "source_type": "support_chat",
+        "source_id": "chat_1767578147",
+        "matched_pattern": "{'phone_numbers': ['9879879870']}"
+      },
+      "violation_state": {
+        "before": "Customer detials: 9879879870"
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "HIGH",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T01:55:47.884405"
+    },
+    {
+      "evidence_id": "EVID-1767578190-B306A2",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "GDPR",
+        "clause": "Data Protection",
+        "requirement": "GDPR compliance violation"
+      },
+      "detection": {
+        "detected_by": "MultiRegulationAgent",
+        "source_type": "support_chat",
+        "source_id": "multi_1767578190954",
+        "matched_pattern": "{'phone_numbers': ['9879879870']}"
+      },
+      "violation_state": {
+        "before": "Customer detials: 9879879870"
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "HIGH",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T01:56:30.969691"
+    },
+    {
+      "evidence_id": "EVID-1767578335-1CA3C2",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "PCI-DSS",
+        "clause": "Data Protection",
+        "requirement": "PCI-DSS compliance violation"
+      },
+      "detection": {
+        "detected_by": "MultiRegulationAgent",
+        "source_type": "support_chat",
+        "source_id": "multi_1767578335915",
+        "matched_pattern": "{'pan': '5424-0000-0000-0015'}"
+      },
+      "violation_state": {
+        "before": "Transaction failed for card 5424-0000-0000-0015. Customer email: jane@example.com, phone: +44-20-7123-4567, IP: 10.0.0.1. California resident SSN: 987-65-4321."
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "CRITICAL",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T01:58:55.929244"
+    },
+    {
+      "evidence_id": "EVID-1767578335-F7DB77",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "GDPR",
+        "clause": "Data Protection",
+        "requirement": "GDPR compliance violation"
+      },
+      "detection": {
+        "detected_by": "MultiRegulationAgent",
+        "source_type": "support_chat",
+        "source_id": "multi_1767578335915",
+        "matched_pattern": "{'emails': ['jane@example.com'], 'ip_addresses': ['10.0.0.1']}"
+      },
+      "violation_state": {
+        "before": "Transaction failed for card 5424-0000-0000-0015. Customer email: jane@example.com, phone: +44-20-7123-4567, IP: 10.0.0.1. California resident SSN: 987-65-4321."
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "HIGH",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T01:58:55.938733"
+    },
+    {
+      "evidence_id": "EVID-1767578335-371BAC",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "CCPA",
+        "clause": "Data Protection",
+        "requirement": "CCPA compliance violation"
+      },
+      "detection": {
+        "detected_by": "MultiRegulationAgent",
+        "source_type": "support_chat",
+        "source_id": "multi_1767578335915",
+        "matched_pattern": "{'ssn': ['987-65-4321']}"
+      },
+      "violation_state": {
+        "before": "Transaction failed for card 5424-0000-0000-0015. Customer email: jane@example.com, phone: +44-20-7123-4567, IP: 10.0.0.1. California resident SSN: 987-65-4321."
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "HIGH",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T01:58:55.975616"
+    },
+    {
+      "evidence_id": "EVID-1767578440-7F92E6",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "PCI-DSS",
+        "clause": "PAN Exposure",
+        "requirement": "PCI-DSS 3.2.1: PAN must not appear in plaintext in logs, messages, or transactions"
+      },
+      "detection": {
+        "detected_by": "MonitoringAgent",
+        "source_type": "support_chat",
+        "source_id": "test_evidence_123",
+        "matched_pattern": "{'pan': '4111111111111111'}"
+      },
+      "violation_state": {
+        "before": "Customer card is 4111111111111111"
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "CRITICAL",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T02:00:40.990001"
+    },
+    {
+      "evidence_id": "EVID-1767578739-8D1053",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "CCPA",
+        "clause": "Data Protection",
+        "requirement": "CCPA compliance violation"
+      },
+      "detection": {
+        "detected_by": "MultiRegulationAgent",
+        "source_type": "support_chat",
+        "source_id": "multi_1767578739898",
+        "matched_pattern": "{'drivers_license': ['D1234567']}"
+      },
+      "violation_state": {
+        "before": "Consumer request: SSN 696969696, Driver's License CA-D1234567 for California resident data access."
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "HIGH",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T02:05:39.913590"
+    },
+    {
+      "evidence_id": "EVID-1767578908-D17847",
+      "event_type": "violation",
+      "regulation": {
+        "framework": "PCI-DSS",
+        "clause": "PAN Exposure",
+        "requirement": "PCI-DSS 3.2.1: PAN must not appear in plaintext in logs, messages, or transactions"
+      },
+      "detection": {
+        "detected_by": "MonitoringAgent",
+        "source_type": "support_chat",
+        "source_id": "final_test_1767578908",
+        "matched_pattern": "{'pan': '4111111111111111'}"
+      },
+      "violation_state": {
+        "before": "Test card number: 4111111111111111"
+      },
+      "remediation": null,
+      "reasoning_chain": null,
+      "linkages": null,
+      "metadata": {
+        "severity": "CRITICAL",
+        "tenant_id": "visa"
+      },
+      "timestamp": "2026-01-05T02:08:28.170976"
+    }
+  ]
+}

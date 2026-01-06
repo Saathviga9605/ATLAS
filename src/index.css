@@ -1,0 +1,447 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* VISA Color Scheme - White Theme */
+  --bg-primary: #FFFFFF;
+  --bg-card: #FAFBFC;
+  --bg-secondary: #F8F9FA;
+  --border-color: #E9ECEF;
+  --text-primary: #1A1D29;
+  --text-secondary: #6C757D;
+  
+  /* VISA Brand Colors */
+  --visa-blue: #003D82;
+  --visa-blue-light: #1A5BA8;
+  --visa-orange: #FF8200;
+  --visa-orange-light: #FFA640;
+  
+  /* Status Colors */
+  --risk-green: #28A745;
+  --risk-amber: #FFC107;
+  --risk-red: #DC3545;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #FFFFFF 0%, #F8F9FA 100%);
+  color: var(--text-primary);
+  letter-spacing: 0.3px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Beautiful VISA-themed Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(248, 249, 250, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--visa-blue), var(--visa-orange));
+  border-radius: 10px;
+  border: 2px solid var(--bg-primary);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--visa-blue-light), var(--visa-orange-light));
+  box-shadow: 0 0 10px rgba(0, 61, 130, 0.3);
+  transform: scale(1.1);
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-color: var(--visa-blue) rgba(248, 249, 250, 0.8);
+  scrollbar-width: thin;
+}
+
+/* Stunning Page Transitions */
+main {
+  animation: pageEnterWhite 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes pageEnterWhite {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Interactive Elements */
+button, a, input, select, textarea {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Creative Flexbox Layouts */
+.flex-creative {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.flex-creative::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--visa-blue), var(--visa-orange));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.flex-creative:hover::before {
+  transform: scaleX(1);
+}
+
+/* VISA-themed Buttons */
+.btn-visa-primary {
+  background: linear-gradient(135deg, var(--visa-blue) 0%, var(--visa-blue-light) 100%);
+  color: white;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 61, 130, 0.3);
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn-visa-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.6s;
+}
+
+.btn-visa-primary:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 40px rgba(0, 61, 130, 0.4);
+}
+
+.btn-visa-primary:hover::before {
+  left: 100%;
+}
+
+.btn-visa-secondary {
+  background: linear-gradient(135deg, var(--visa-orange) 0%, var(--visa-orange-light) 100%);
+  color: white;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(255, 130, 0, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn-visa-secondary:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 40px rgba(255, 130, 0, 0.4);
+}
+
+.btn-visa-outline {
+  background: transparent;
+  color: var(--visa-blue);
+  border: 2px solid var(--visa-blue);
+  padding: 12px 28px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.btn-visa-outline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--visa-blue), var(--visa-orange));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.btn-visa-outline:hover {
+  color: white;
+  border-color: var(--visa-orange);
+  transform: translateY(-2px);
+}
+
+.btn-visa-outline:hover::before {
+  transform: scaleX(1);
+}
+
+/* Animated Gradient Text */
+.text-visa-gradient {
+  background: linear-gradient(135deg, var(--visa-blue) 0%, var(--visa-orange) 100%);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: text-gradient 3s ease-in-out infinite;
+}
+
+/* Creative Card Designs */
+.card-visa {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 249, 250, 0.8) 100%);
+  border: 1px solid rgba(0, 61, 130, 0.1);
+  border-radius: 20px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 61, 130, 0.1);
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.card-visa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--visa-blue), var(--visa-orange));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.card-visa:hover {
+  transform: translateY(-8px) rotateX(2deg);
+  box-shadow: 0 20px 60px rgba(0, 61, 130, 0.2);
+  border-color: rgba(0, 61, 130, 0.3);
+}
+
+.card-visa:hover::before {
+  transform: scaleX(1);
+}
+
+/* Floating Elements */
+.float-element {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Status Indicators with Animation */
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+  animation: pulse-soft 3s ease-in-out infinite;
+}
+
+.status-indicator::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  animation: ripple 2s infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Interactive Lists */
+.interactive-list-white {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interactive-list-item-white {
+  padding: 16px 20px;
+  margin-bottom: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid transparent;
+  border-left: 4px solid var(--visa-blue);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.interactive-list-item-white::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 61, 130, 0.05), rgba(255, 130, 0, 0.05));
+  border-radius: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.interactive-list-item-white:hover {
+  transform: translateX(8px) scale(1.02);
+  border-color: rgba(255, 130, 0, 0.5);
+  box-shadow: 0 8px 25px rgba(0, 61, 130, 0.15);
+}
+
+.interactive-list-item-white:hover::before {
+  opacity: 1;
+}
+
+/* Progress Bars with VISA Theme */
+.progress-visa {
+  width: 100%;
+  height: 10px;
+  background: rgba(248, 249, 250, 0.8);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-visa-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--visa-blue), var(--visa-orange));
+  border-radius: 20px;
+  transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-visa-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  animation: shimmer-wave 2s infinite;
+}
+
+/* Creative Badges */
+.badge-visa {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+  animation: bounce-gentle 2s infinite;
+}
+
+.badge-visa-success {
+  background: linear-gradient(135deg, rgba(40, 167, 69, 0.2), rgba(40, 167, 69, 0.1));
+  color: var(--risk-green);
+  border: 2px solid rgba(40, 167, 69, 0.3);
+}
+
+.badge-visa-warning {
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.2), rgba(255, 193, 7, 0.1));
+  color: var(--risk-amber);
+  border: 2px solid rgba(255, 193, 7, 0.3);
+}
+
+.badge-visa-danger {
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.2), rgba(220, 53, 69, 0.1));
+  color: var(--risk-red);
+  border: 2px solid rgba(220, 53, 69, 0.3);
+}
+
+/* Loading Animations */
+.loading-visa {
+  background: linear-gradient(
+    90deg,
+    rgba(248, 249, 250, 0.5) 25%,
+    rgba(0, 61, 130, 0.1) 50%,
+    rgba(248, 249, 250, 0.5) 75%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer-wave 2s infinite;
+}
+
+/* Utility Classes */
+.shadow-visa {
+  box-shadow: 0 4px 20px rgba(0, 61, 130, 0.15);
+}
+
+.shadow-visa-hover {
+  box-shadow: 0 8px 40px rgba(0, 61, 130, 0.25);
+}
+
+.border-visa-gradient {
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, var(--visa-blue), var(--visa-orange)) border-box;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}

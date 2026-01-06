@@ -1,0 +1,557 @@
+/* Component-specific styles for enhanced interactivity */
+
+/* ============================================
+   CARDS & CONTAINERS
+   ============================================ */
+
+.modern-card {
+  background: linear-gradient(135deg, rgba(19, 47, 76, 0.9) 0%, rgba(26, 77, 122, 0.5) 100%);
+  border: 1.5px solid rgba(255, 193, 7, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modern-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 
+    0 16px 48px rgba(255, 193, 7, 0.2),
+    inset 0 1px 1px rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 193, 7, 0.45);
+  background: linear-gradient(135deg, rgba(19, 47, 76, 1) 0%, rgba(26, 77, 122, 0.7) 100%);
+}
+
+.card-glow {
+  position: relative;
+  box-shadow: 
+    0 0 30px rgba(255, 193, 7, 0.1),
+    inset 0 0 20px rgba(255, 193, 7, 0.05);
+}
+
+.card-glow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at top right, rgba(255, 193, 7, 0.1), transparent);
+  pointer-events: none;
+  border-radius: 16px;
+}
+
+/* ============================================
+   HEADERS & TITLES
+   ============================================ */
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #FFD54F 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: rgba(227, 242, 253, 0.7);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* ============================================
+   BADGES & LABELS
+   ============================================ */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.badge-success {
+  background: linear-gradient(135deg, rgba(0, 208, 132, 0.3), rgba(0, 208, 132, 0.1));
+  color: #00D084;
+  border: 1px solid rgba(0, 208, 132, 0.4);
+  box-shadow: 0 0 15px rgba(0, 208, 132, 0.15);
+}
+
+.badge-warning {
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.3), rgba(255, 193, 7, 0.1));
+  color: #FFD54F;
+  border: 1px solid rgba(255, 193, 7, 0.4);
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.15);
+}
+
+.badge-danger {
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.3), rgba(255, 107, 107, 0.1));
+  color: #FF6B6B;
+  border: 1px solid rgba(255, 107, 107, 0.4);
+  box-shadow: 0 0 15px rgba(255, 107, 107, 0.15);
+}
+
+.badge-info {
+  background: linear-gradient(135deg, rgba(26, 155, 220, 0.3), rgba(26, 155, 220, 0.1));
+  color: #1A9BDC;
+  border: 1px solid rgba(26, 155, 220, 0.4);
+  box-shadow: 0 0 15px rgba(26, 155, 220, 0.15);
+}
+
+/* ============================================
+   STATISTICS & METRICS
+   ============================================ */
+
+.stat-box {
+  background: linear-gradient(135deg, rgba(19, 47, 76, 0.8), rgba(26, 77, 122, 0.4));
+  border: 1px solid rgba(255, 193, 7, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 193, 7, 0.4);
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.15);
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFD54F;
+  margin-bottom: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: rgba(227, 242, 253, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* ============================================
+   LISTS & ITEMS
+   ============================================ */
+
+.interactive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interactive-list-item {
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: rgba(19, 47, 76, 0.5);
+  border: 1px solid rgba(255, 193, 7, 0.15);
+  border-left: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.interactive-list-item:hover {
+  background: rgba(19, 47, 76, 0.8);
+  border-left-color: #FFC107;
+  border-color: rgba(255, 193, 7, 0.3);
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.1);
+}
+
+.interactive-list-item.active {
+  background: linear-gradient(90deg, rgba(255, 193, 7, 0.2), transparent);
+  border-left-color: #FFD54F;
+  border-color: rgba(255, 193, 7, 0.4);
+}
+
+/* ============================================
+   PROGRESS BARS
+   ============================================ */
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(19, 47, 76, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00D084, #FFD54F);
+  border-radius: 10px;
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 0 10px rgba(0, 208, 132, 0.5);
+  position: relative;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ============================================
+   ALERTS & NOTIFICATIONS
+   ============================================ */
+
+.alert {
+  padding: 16px;
+  border-radius: 12px;
+  border-left: 4px solid;
+  background: rgba(19, 47, 76, 0.6);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  animation: slideInAlert 0.4s ease-out;
+}
+
+@keyframes slideInAlert {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.alert.success {
+  border-left-color: #00D084;
+  background: rgba(0, 208, 132, 0.15);
+}
+
+.alert.warning {
+  border-left-color: #FFD54F;
+  background: rgba(255, 193, 7, 0.15);
+}
+
+.alert.danger {
+  border-left-color: #FF6B6B;
+  background: rgba(255, 107, 107, 0.15);
+}
+
+.alert.info {
+  border-left-color: #1A9BDC;
+  background: rgba(26, 155, 220, 0.15);
+}
+
+.alert-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.alert-message {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ============================================
+   INPUTS & FORMS
+   ============================================ */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFD54F;
+  margin-bottom: 8px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  background: rgba(19, 47, 76, 0.6);
+  border: 1.5px solid rgba(255, 193, 7, 0.2);
+  color: #E3F2FD;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: rgba(227, 242, 253, 0.5);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #FFD54F;
+  background: rgba(19, 47, 76, 0.9);
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.25);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.btn-base {
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 11px 24px;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-base::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn-base:active::before {
+  width: 300px;
+  height: 300px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #FFC107 0%, #FFD54F 100%);
+  color: #0A1929;
+  box-shadow: 0 4px 20px rgba(255, 193, 7, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 193, 7, 0.5);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #FFD54F;
+  border: 2px solid #FFD54F;
+  box-shadow: 0 0 10px rgba(255, 193, 7, 0.2);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 193, 7, 0.1);
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #E3F2FD;
+  border: 1.5px solid rgba(255, 193, 7, 0.3);
+}
+
+.btn-ghost:hover {
+  border-color: #FFD54F;
+  color: #FFD54F;
+  background: rgba(255, 193, 7, 0.1);
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 11px;
+}
+
+.btn-lg {
+  padding: 14px 32px;
+  font-size: 14px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table thead {
+  background: linear-gradient(90deg, rgba(10, 25, 41, 0.9), rgba(19, 47, 76, 0.5));
+  border-bottom: 2px solid rgba(255, 193, 7, 0.3);
+}
+
+.data-table th {
+  padding: 16px;
+  text-align: left;
+  color: #FFD54F;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.data-table tbody tr {
+  border-bottom: 1px solid rgba(255, 193, 7, 0.1);
+  transition: all 0.3s ease;
+}
+
+.data-table tbody tr:hover {
+  background: rgba(255, 193, 7, 0.08);
+  box-shadow: inset 0 0 20px rgba(255, 193, 7, 0.1);
+}
+
+.data-table td {
+  padding: 14px 16px;
+  color: #E3F2FD;
+  font-size: 13px;
+}
+
+.data-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* ============================================
+   LOADING STATES
+   ============================================ */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 47, 76, 0.3) 25%,
+    rgba(26, 77, 122, 0.5) 50%,
+    rgba(19, 47, 76, 0.3) 75%
+  );
+  background-size: 1000px 100%;
+  animation: skeleton-loading 2s infinite;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.spinner {
+  border: 3px solid rgba(255, 193, 7, 0.2);
+  border-top: 3px solid #FFC107;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.text-gradient {
+  background: linear-gradient(135deg, #FFD54F 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.blur-bg {
+  backdrop-filter: blur(10px);
+  background: rgba(10, 25, 41, 0.4);
+}
+
+.glow-sm {
+  box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
+}
+
+.glow-md {
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+}
+
+.glow-lg {
+  box-shadow: 0 0 30px rgba(255, 193, 7, 0.5);
+}
+
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}

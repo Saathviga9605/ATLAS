@@ -1,0 +1,245 @@
+# ==========================================
+# PERSON 1 - REGULATION INTELLIGENCE AGENT
+# .gitignore
+# ==========================================
+
+# ==========================================
+# API KEYS & SECRETS (CRITICAL!)
+# ==========================================
+*.env
+.env
+.env.local
+.env.*.local
+**/*_api_key*
+**/*secret*
+**/*credentials*
+
+# OpenRouter API keys
+openrouter_config.json
+api_keys.txt
+
+# ==========================================
+# DOWNLOADED REGULATORY PDFs (LARGE FILES)
+# ==========================================
+*.pdf
+!README.pdf  # Keep documentation PDFs if any
+
+# Alternative: Keep PDFs but ignore large ones
+# regulatory_data/*.pdf
+# !regulatory_data/README.md
+
+# ==========================================
+# VECTOR STORE DATABASES (LARGE & REGENERABLE)
+# ==========================================
+chroma_db_regulatory/
+chroma_db_policy/
+*.chroma
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB specific
+chroma.sqlite3
+chroma/
+
+# ==========================================
+# OUTPUT FILES (CAN BE REGENERATED)
+# ==========================================
+
+!schema/*.json  # Keep schema definitions
+
+# Alternative: Keep output but ignore specific files
+# output/*.json
+# !output/README.md
+# !output/example_output.json
+
+# ==========================================
+# PYTHON
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.pyenv
+pipenv/
+poetry.lock
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ==========================================
+# SENTENCE-TRANSFORMERS MODELS (LARGE CACHE)
+# ==========================================
+.cache/
+sentence_transformers/
+transformers_cache/
+~/.cache/huggingface/
+.huggingface/
+
+# ==========================================
+# IDE & EDITOR FILES
+# ==========================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ==========================================
+# OS FILES
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==========================================
+# LOGS & TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# LangChain cache
+.langchain/
+langchain_cache/
+
+# ==========================================
+# TESTING & DEVELOPMENT
+# ==========================================
+test_output/
+sandbox/
+experiments/
+scratch/
+debug/
+.hypothesis/
+
+# ==========================================
+# DOCUMENTATION BUILD
+# ==========================================
+docs/_build/
+site/
+.mkdocs_cache/
+
+# ==========================================
+# SENSITIVE DATA (REGULATORY CONTENT)
+# ==========================================
+# If you have sensitive internal policies
+internal_policies/
+confidential/
+proprietary/
+
+# Sample or test data with real info
+*_sample_data*.csv
+*_test_data*.json
+
+# ==========================================
+# PROJECT SPECIFIC
+# ==========================================
+# Large intermediate files
+extracted_text/
+preprocessed/
+intermediate_results/
+
+# Old versions
+*_old/
+*_backup/
+*_deprecated/
+
+# ==========================================
+# KEEP THESE (OVERRIDE IGNORES ABOVE)
+# ==========================================
+# Keep example configs
+!config.example.json
+!.env.example
+
+# Keep schema definitions
+!*_schema.json
+
+# Keep README files everywhere
+!README.md
+!**/README.md
+
+# Keep requirements
+!requirements.txt
+!requirements*.txt
+
+# Keep example outputs
+!examples/*.json

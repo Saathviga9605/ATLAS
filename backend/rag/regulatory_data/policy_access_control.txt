@@ -1,0 +1,22 @@
+
+# Visa Digital Payments - Access Control Policy
+Version 3.0 | Effective: January 2024
+
+## 1. Purpose
+Establish access controls for systems handling payment card data and personal information.
+
+## 2. Authentication Requirements
+2.1 Multi-factor authentication (MFA) must be enabled for all administrative access.
+2.2 Password complexity: Minimum 12 characters, alphanumeric with special characters.
+2.3 Password rotation: Every 90 days for privileged accounts.
+
+## 3. Role-Based Access Control
+3.1 Access shall be granted based on job function and least privilege principle.
+3.2 Access reviews must be conducted quarterly.
+3.3 Terminated employee access must be revoked within 24 hours.
+
+## 4. Cardholder Data Environment (CDE)
+4.1 CDE access shall be restricted to personnel with documented business need.
+4.2 All CDE access must be logged and monitored in real-time.
+4.3 Remote access to CDE requires VPN with MFA.
+    

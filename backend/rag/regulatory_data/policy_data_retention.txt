@@ -1,0 +1,23 @@
+
+# Visa Digital Payments - Data Retention Policy
+Version 2.1 | Effective: January 2024
+
+## 1. Purpose
+This policy establishes standards for retaining customer and transaction data in compliance with PCI-DSS, GDPR, and CCPA requirements.
+
+## 2. Cardholder Data Retention
+2.1 Sensitive Authentication Data (SAD) must be deleted immediately after authorization.
+2.2 Primary Account Numbers (PAN) shall be stored only when business necessity is documented.
+2.3 Cardholder data retention period: Maximum 18 months unless required by law.
+2.4 All stored PAN must be encrypted using AES-256 or equivalent.
+
+## 3. Personal Data Under GDPR
+3.1 Customer personal data shall be retained for no longer than necessary for the purpose collected.
+3.2 Default retention: 3 years after last transaction for EU customers.
+3.3 Right to erasure requests must be processed within 30 days.
+
+## 4. CCPA Compliance
+4.1 California residents' data shall not be sold without explicit opt-in consent.
+4.2 Data subject access requests must be fulfilled within 45 days.
+4.3 Deletion requests shall be processed within 45 days unless exception applies.
+    
