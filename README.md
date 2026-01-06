@@ -3,28 +3,26 @@
 **A**utonomous **T**rust **L**ayer for **A**gent **S**ystems  
 Multi-Regulation Compliance Monitoring with AI-Powered Analysis
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Python](https://img.shields.io/badge/python-3.10+-blue) ![React](https://img.shields.io/badge/react-19.2.3-blue)
-
 ---
 
-## 🎯 Overview
+## Overview
 
 ATLAS is an autonomous compliance monitoring system that detects, analyzes, and remediates regulatory violations across **PCI-DSS**, **GDPR**, and **CCPA** frameworks in real-time. It combines pattern-based detection, AI-powered analysis via OpenRouter, and cryptographic evidence chains to provide comprehensive compliance assurance.
 
 ### Key Features
 
-✅ **Multi-Regulation Detection** - Simultaneous scanning for PCI-DSS, GDPR, and CCPA violations  
-✅ **AI-Powered Analysis** - OpenRouter LLM integration for intelligent violation reasoning  
-✅ **Natural Language Queries** - Ask compliance questions in plain English  
-✅ **Evidence Chain** - Cryptographic hash-chain for immutable audit trails  
-✅ **Real-time Monitoring** - Live ingestion from multiple data sources  
-✅ **Automated Remediation** - AI-generated fix suggestions and action plans  
-✅ **Analytics Dashboard** - Risk heatmaps, severity tracking, and statistics  
-✅ **Autonomous Agents** - Self-orchestrating compliance workflows  
+**Multi-Regulation Detection** - Simultaneous scanning for PCI-DSS, GDPR, and CCPA violations  
+**AI-Powered Analysis** - OpenRouter LLM integration for intelligent violation reasoning  
+**Natural Language Queries** - Ask compliance questions in plain English  
+**Evidence Chain** - Cryptographic hash-chain for immutable audit trails  
+**Real-time Monitoring** - Live ingestion from multiple data sources  
+**Automated Remediation** - AI-generated fix suggestions and action plans  
+**Analytics Dashboard** - Risk heatmaps, severity tracking, and statistics  
+**Autonomous Agents** - Self-orchestrating compliance workflows  
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Technology Stack
 
@@ -64,7 +62,7 @@ Frontend (Port 3000)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -120,14 +118,14 @@ REACT_APP_API_BASE_URL=http://localhost:8000
 cd backend
 python -m uvicorn main:app --reload
 ```
-✅ Backend running at `http://localhost:8000`  
-📖 API docs at `http://localhost:8000/docs`
+Backend running at `http://localhost:8000`  
+API docs at `http://localhost:8000/docs`
 
 **Terminal 2 - Frontend:**
 ```bash
 npm start
 ```
-✅ Frontend running at `http://localhost:3000`
+ Frontend running at `http://localhost:3000`
 
 ---
 
@@ -244,7 +242,7 @@ Cryptographic hash-chain verification for immutable audit logs.
 
 **Features:**
 - Complete event log of all compliance activities
-- Hash-chain integrity verification (✅ or ❌)
+- Hash-chain integrity verification 
 - Tamper detection via cryptographic linking
 - JSON export for compliance reports
 
@@ -365,7 +363,7 @@ curl http://localhost:8000/evidence
 
 ---
 
-## 🛡️ Detection Capabilities
+## Detection Capabilities
 
 ### PCI-DSS (Payment Card Industry)
 **Detects:** Unmasked credit card numbers (PAN)  
@@ -406,7 +404,7 @@ curl http://localhost:8000/evidence
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Using the Multi-Regulation Scanner UI
 
@@ -448,7 +446,7 @@ curl http://localhost:8000/evidence
 
 ---
 
-## 🎬 5-Minute Demo Script
+##  5-Minute Demo Script
 
 ### Minute 1: Introduction
 "ATLAS is an autonomous compliance platform that monitors PCI-DSS, GDPR, and CCPA violations in real-time with AI-powered analysis and immutable audit trails."
@@ -475,13 +473,13 @@ curl http://localhost:8000/evidence
 
 ### Minute 5: Evidence & Audit
 1. Navigate to `http://localhost:3000/evidence`
-2. Show hash-chain verification (✅ Chain Verified)
+2. Show hash-chain verification ( Chain Verified)
 3. Download evidence JSON
 4. Highlight: "Each event cryptographically linked for tamper-proof compliance"
 
 ---
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Backend Won't Start
 
@@ -565,7 +563,7 @@ CCPA: 123-45-6789
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mergeconflicts/
@@ -623,7 +621,7 @@ mergeconflicts/
 
 ---
 
-## 🔐 Security
+##  Security
 
 ### Data Protection
 - ✅ Credit cards **never stored in plaintext**
@@ -691,7 +689,7 @@ npm test
 
 ---
 
-## 📊 Performance
+##  Performance
 
 **Detection Speed:** <100ms per scan  
 **AI Analysis:** 2-5 seconds (LLM-dependent)  
@@ -701,7 +699,7 @@ npm test
 
 ---
 
-## 📝 Data Persistence
+##  Data Persistence
 
 ### Evidence Storage
 - **Location:** `backend/data/evidence.json`
@@ -720,52 +718,9 @@ npm test
 
 ---
 
-## 🎯 Roadmap
 
-### Current (v1.0.0)
-- ✅ Multi-regulation detection (PCI-DSS, GDPR, CCPA)
-- ✅ AI-powered analysis (OpenRouter)
-- ✅ Natural language queries
-- ✅ Evidence chain
-- ✅ Analytics dashboard
-
-### Future
-- [ ] SOX (Sarbanes-Oxley) support
-- [ ] HIPAA healthcare compliance
-- [ ] Machine learning anomaly detection
-- [ ] Predictive risk scoring
-- [ ] Historical trend analysis
-- [ ] Custom regulation upload
-- [ ] Slack/Teams integration
-- [ ] Mobile app
-
----
-
-## ✅ System Status
-
-**Production Ready:** ✅ Yes  
-**Test Coverage:** 95%  
-**Documentation:** Complete  
-**Demo:** Fully functional  
-
----
-
-## 📞 Support
-
-**Documentation:** This README + `http://localhost:8000/docs`  
-**Issues:** Create GitHub issue  
-**API Reference:** Swagger UI at `/docs`
-
----
-
-## 📄 License
+##  License
 
 MIT License
 
 ---
-
-**Built with ❤️ for autonomous compliance monitoring**
-
-Last Updated: January 5, 2026  
-Version: 1.0.0
-
